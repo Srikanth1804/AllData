@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.dropdown{
+    position: relative;
+    left: 600px;
+    top: 100px;
+}
+.down{
+    position: absolute;
+    top: 20px;
+    left: 3px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius:2px;
+    display: none;
+}
+.dropdown:hover .down{
+    display: block;
+}
+.column{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 5px solid salmon;
+    column-rule-style: double;
+}
+
+</style>
+</head>
+<body>
+    
+    <div class="dropdown">hover me
+        <div class="down">hello</div>
+    </div>
+    <div class="column">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus earum recusandae labore in est tempora ullam quo, similique doloribus voluptas modi debitis necessitatibus, illo ad veritatis! Inventore accusantium iusto nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut doloribus nostrum in dicta, sit suscipit explicabo, aspernatur dolores ut quod, nesciunt mollitia eveniet nulla animi sapiente nemo! Molestiae, minus? Dolorum.</p>
+    </div>
+
+
+</body>
+</html>
