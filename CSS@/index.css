@@ -1,0 +1,100 @@
+p{
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 20px;
+    /* letter-spacing: 30px; */
+    /* word-spacing: 30px; */
+    white-space: normol;
+    hyphens: auto;
+    
+}
+h1{
+    font-style: normal;
+
+    font-weight:900;
+    font-size: x-large;
+    line-height: 70px;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-variant: small-caps; */
+    font-stretch: expanded;
+}
+
+
+/* a{
+    color: brown;
+    text-decoration: none;
+    display: inline;
+    
+    background-color: red;
+   cursor: pointer;
+/* text-align: center; */
+
+} */
+
+li{
+    list-style-type:lower-roman;
+    vertical-align: top;
+    list-style-image: url("");
+}
+
+#A{
+     border: 5px solid red;
+    /* border-radius: 50px; */
+    /* border-style: double;   
+    background-color: black;
+    color: aliceblue;
+    outline: 5px solid blue;
+    outline-width: 40px;
+    outline-offset: 20px;
+    outline-style: groove; */
+}
+
+tr,td,th,table{
+border: 1px dotted red;
+}
+tr{
+    background-color: aqua;
+}
+img{
+    float:right ;
+    width: 250px;
+   
+}
+
+
+#imgs{
+    width: 1200px;
+    border:  1px solid red;
+    height: 1000px;
+    background: url("https://images.unsplash.com/photo-1682686581484-a220483e6291?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D");
+
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+
+
+}
+p{
+    color: orangered;
+}
+
+
+a{
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+/*
+1.Relative
+2.fixed
+3.sticky
+4.static
+5.absoulute
+*/
+
+
+h1{
+    position: sticky;
+    top: 200px;
+    left: 159px;
+}
+

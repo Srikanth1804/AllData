@@ -1,0 +1,11 @@
+@media all and (min-width:"450px"){
+   p{
+      font-size: x-small;
+      font-variant: small-caps;background-color: blue;
+   }
+}
+p{
+   font-size: larger;
+   font-variant: small-caps;
+   background-color: darkkhaki;
+}
