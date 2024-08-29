@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+    #TBTN{
+      width: 100%;
+       
+    }
+    #Tlogo{
+        width: 20px;
+    }
+    #TW{
+        font-size: xx-small;
+    }
+  }
+  
+
+.card{
+  border: none;
+}

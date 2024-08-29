@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm(e) {
+    e.preventDefault() // Prevent form submission
+    let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        console.log("Name must be filled out");
+        return false;
+    }
+}
+</script>
+</head>
+<body>
+<div>
+  <p>
+ABCD
+  </p>
+  <h1>Hi</h1>
+</div>
+ 
+
+<h2>JavaScript Validation</h2>
+
+<form name="myForm" action="">
+  Name: <input type="text" name="fname">
+  <input type="submit" value="Submit" onclick="validateForm(event)">
+</form>
+
+
+
+<input type="text" id="Ser">
+
+
+
+</body>
+</html>

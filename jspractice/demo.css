@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    background-color: black;
+}
+
+@media screen and (max-width:900px) {
+    div{
+        background-color: blue;
+    }
+}
+@media screen and (max-width:600px) {
+    div{
+        background-color: red;
+    }
+}
+
+.minwidth{
+    height: 100px;
+    background-color:orange;
+}
+@media screen and (min-width:500px){
+    .minwidth{
+        background-color: greenyellow;
+    }
+}
+@media screen and (min-width:800px){
+    .minwidth{
+        background-color:yellow;
+    }
+}
+
+.ABC{
+    background-color: red;
+    color:whitesmoke;
+}
