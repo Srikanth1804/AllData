@@ -1,0 +1,26 @@
+.style{
+    color: orangered;
+}
+.style1{
+    color:yellow;
+}
+.style2{
+    color: orangered;
+}
+.style3{
+    color:yellow;
+}
+.style4{
+    color: orangered;
+}
+.style5{
+    color:yellow;
+}
+#para20{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: salmon;
+
+}
