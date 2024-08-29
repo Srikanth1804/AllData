@@ -1,0 +1,12 @@
+div{
+    font-variant: small-caps;
+    font-weight: 900;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 5px;
+    color: red;
+    border: 1px solid black ;
+    border-radius: 50px;
+    background-color: aqua;
+
+}

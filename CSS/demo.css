@@ -1,0 +1,257 @@
+/* div{
+background: url(photo-1610970878459-a0e464d7592b.avif);
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid green;
+width: 1000px;
+height: 1000px;
+background-attachment: fixed;
+} */
+/* p{
+    color: beige;
+    font-variant: small-caps;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    position: relative;
+    left: 450px;
+    top: 30px;
+    color: darkgreen;
+    letter-spacing:10px ;
+}
+nav p{
+    border: 10px solid black;
+    background-color: aqua;
+    max-width: 50%;
+    position: relative;
+    left: 300px;
+    top: 200px;
+    border-style:double;
+    outline: 20px solid red;
+} */
+/* div{
+    font-size:large;
+}
+h1{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    border: 2px solid green;
+    width: 155px;
+    background-color: lightseagreen;
+    left: 550px;
+    z-index: 1;    
+}
+.para{
+    position: relative;
+    left: 590px;
+    top: 185px;
+    overflow:auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: orange;
+}
+nav{
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+    padding: 30px;
+    margin: 10px;
+}
+.one{
+    background-color: yellow;
+}
+.three{
+    background-color: blue;
+}
+.abc img{
+    width: 100%;
+    float: right;
+position: absolute;
+bottom: 20px;
+left: 100;
+opacity: 0.5;
+}
+.abc{
+    border: 2px solid black;
+    width: 50%;
+    overflow: auto;
+position: relative;
+}
+
+
+
+
+
+#nav{
+    background-color: orangered;
+    color: white;
+    padding: 25px;
+    height: 20px;
+}
+.A{
+    text-decoration: none;
+    background-color: black;
+    padding: 20px;
+    color: white;
+   
+    
+}
+.A:visited{
+    color: blue;
+}
+
+.A:hover{
+    background-color: yellow;
+}
+.A:active{
+    background: pink;
+} */
+
+
+.grd{
+    background: linear-gradient(lightseagreen ,white);
+    width: 1400px;
+    height: 900px;
+}
+.shadow{
+    position: relative;
+    bottom: 680px;
+    left: 300px;
+    border: 1px solid black;
+    display: inline;
+    outline-style: solid;
+    outline-color: black;
+}
+.shadow:hover{
+  
+    box-shadow: 10px 10px 5px green;
+}
+.para{
+
+    position: relative;
+    
+    bottom: 680px;
+}
+.para::first-letter{
+    color: red;
+    font-size: xx-large;
+    
+}
+.opacity img{
+    width: 200px;
+    height: 200px;
+    padding: 0px 5px;
+}
+.opacity{
+    position: relative;
+    bottom: 650px;
+    left: 150px;
+    opacity: 0.5;
+}
+.opacity:hover{
+    opacity: 1;
+    cursor:wait;
+}
+.webfont{
+    position: relative;
+    bottom: 600px;
+    left: 30px;
+}
+@font-face{
+    font-family: font;
+    src: url(Ojuju-VariableFont_wght.ttf);
+}
+.webfont{
+    font-family: font;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+}
+#twoD{
+width:100px;
+height: 100px;
+background-color: black;
+color: white;
+transform: translate(500px);
+}
+#twoD{
+    transform: rotate(270deg);
+    transform: scale(1,2);
+    transform: skewX(40deg);
+    transform: skew(50deg);
+    transform: rotateZ(9deg);
+}
+.threeD{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    transform: translate(10px);
+    transition-duration: 2s;
+}
+.threeD:hover{
+    width: 300px;
+}
+#S{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transition-delay: 2s;
+    transition-timing-function: linear;
+}
+#D{
+    width: 100px;
+    height: 100px;
+    background-color: olive;
+    transition: 2s;
+    transition-timing-function: ease-in;
+}#F{
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    transition: 2s;
+    transition-timing-function: ease-out;
+}#G{
+    width: 100px;
+    height: 100px;
+    background-color:aquamarine;
+    transition: 3s;
+    transition-timing-function: ease;
+}#H{
+    width: 100px;
+    height: 100px;
+    background-color:chartreuse;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+#S:hover{
+width: 300px;
+}
+#D:hover{
+    width: 300px;
+    }
+    #F:hover{
+        width: 300px;
+        }
+        #G:hover{
+            width: 300px;
+            }
+            #H:hover{
+                width: 300px;
+                }
+.trs{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    transition-duration: width 2s ,height 2s transform 2s;
+    transition-timing-function: ease;
+}
+.trs:hover{
+    width: 150px;
+    height: 100px;
+    transform: rotate(90deg);
+}

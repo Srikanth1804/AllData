@@ -1,0 +1,71 @@
+body{
+    background: url(pexels-wyxina-tresse-20138930.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.regform{
+    width: 430px;
+    background-color:rgba(0, 0, 0, 0.8);
+    margin: 90px auto; 
+    border-radius: 8px; 
+    padding: 20px 0px
+}
+.regform h3{
+    text-align: center;
+    color: lightcoral;
+}
+.input label{
+    display: block;
+    position: relative;
+    left: 27px;
+}
+.input{
+    padding: 5px 30px 20px;
+}
+.input input{
+    border-radius: 8px;
+    border: 2px solid green;
+    box-shadow: 2px;
+    width:300px;
+    height: 27px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    position: relative;
+    left: 25px;
+}
+input:focus{
+    background-color: lightgreen;
+}
+.radio{
+    padding:1px 25px 1px ;
+}
+.btn{
+    text-align: center;
+}
+  button{
+    padding: 15px 15px;
+    margin-top: 20px;
+    background-color:darkgreen;
+    color: white;
+    border: 3px solid white;
+    box-shadow: 3px;
+    font-variant: small-caps;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    /* float: inline-start; */
+}
+.radio{
+    accent-color: green;
+    position: relative;
+    left: 28px;
+}
+h3:hover{
+    color: red;
+}
+button:hover{
+    background-color: green;
+    font-weight: bold;
+}

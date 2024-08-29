@@ -1,0 +1,176 @@
+.logo img{
+    position: relative;
+    width: 180px;
+    bottom: 350px;
+}
+.nav a{
+    text-decoration: none;
+    float: left;
+    padding: 30px;
+    color: white;
+    position: relative;
+    left:   800px;
+    font-variant: small-caps;
+}
+.regform{
+    width: 260px;
+    height: 350px;
+    border: 2px solid black;
+    position: relative;
+    left: 950px;
+    top: 210px;
+    border-radius: 8px;
+    backdrop-filter:blur(3px);
+}
+.head{
+    color: orange;
+    text-align: center;
+    position: relative;
+    bottom: 39px;    
+}
+.input label{
+    display: block;
+}
+.input{
+    position: relative;
+    left: 35px;
+    bottom: 30px;
+    padding: 10px;
+}
+.radio{
+    position: relative;
+    left: 25px;
+    padding: 20px;
+    bottom: 20px;
+    accent-color: orange;
+}
+.btn{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+button{
+    padding: 10px;
+    font-variant: small-caps;
+    background-color: orange;
+    border-radius: 6px;
+}.input input{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    height: 20px;
+}
+.design{
+    font-variant: small-caps;
+    position: relative;
+    bottom: 450px;
+    left: 65px;
+    font-size: larger;
+    color: yellow;
+}
+.and{
+    font-variant: normal;
+    position: relative;
+    bottom: 390px;
+    color: white;
+    left: 60px;
+}
+.DESIGN{
+    position: relative;
+    bottom: 418px;
+    left: 40px;
+    color: orange;
+    font-size: x-large;
+}
+.para{
+    width: 480px;
+    height: 200px;
+    position: relative;
+    bottom: 420px;
+    left: 10px;
+    color: white;
+}
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.icon{
+    position: relative;
+    bottom: 300px;
+    left: 1055px;
+    color:white;
+}
+.icon p::first-letter{
+color:white;
+font-size: large;
+font-weight: 100;
+}
+.pink{
+    position: relative;
+    left: 20px;
+    bottom: 18px;
+}
+.twit{
+    position: relative;
+    left: 40px;
+    bottom: 37px;
+}
+.green{
+    position: relative;
+    left: 60px;
+    bottom: 56px;
+}
+a:hover{
+    color: orange;
+    transform: translateY(1px)
+}
+.blue i:hover{
+    color: blue;
+    transform: translateY(-3px)
+}
+.pink i:hover{
+    color: pink;
+    transform: translateY(-3px)
+}
+.twit i:hover{
+    color: blue;
+    transform: translateY(-3px)
+}
+.green i:hover{
+    color: darkgreen;
+    transform: translateY(-3px)
+}
+button:hover{
+    background-color: white;
+    color: orange;
+    font-weight: 800;
+    cursor: pointer;
+}
+.icons{
+    position: relative;
+    bottom: 310px;
+    left: 1050px;
+}
+.icon:hover{
+    text-decoration:underline;
+    
+}
+.input input{
+    padding: 0px 7px;
+}
+input:focus{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.end{
+    position: relative;
+    bottom: 280px;
+    left: 290px;
+    font-variant: small-caps;
+    color: red;
+    letter-spacing: 3px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+

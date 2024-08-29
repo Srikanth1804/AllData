@@ -1,0 +1,311 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.rectangle{
+    width: 1300px;
+    height: 70px;
+    background-color: orangered;
+    position: relative;
+    left: 71px;
+    top: 3px;
+    z-index: -1;
+}
+.rectangle h1{
+    position: absolute;
+    top: 0px;
+    left: 480px;
+    letter-spacing: 3px;
+    animation-name: heading;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+}
+@keyframes heading{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.circle{
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    background-color:white;
+    position: relative;
+    bottom: 74px;
+    left: 0px;
+    border: 1px solid white;
+}
+.circle1{
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    background-color:white;
+    position: relative;
+    bottom: 160px;
+    left: 6px;
+    z-index: -1;
+}
+.image img{
+    width: 85px;
+    height: 85px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 245px;
+    left: 1px;
+    object-fit: cover;
+    animation-name: logo;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes logo {
+    100%{ transform:rotatey(180deg);
+} 
+}
+.bgimage img{
+    width: 1361px;
+    height: 550px;
+    position: relative;
+    bottom: 239px;
+    right: 6px;
+   
+}
+
+.opacity{
+    width: 1400px;
+    height: 552px;
+    background-color: black;
+    position: relative;
+    bottom: 794px;
+    right: 10px;
+    opacity: 0.6;
+}
+.regform{
+    position: relative;
+    bottom: 1250px;
+    left: 850px;
+    border: 1px solid whitesmoke;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: rgba(240, 71, 9, 0.115);
+    z-index: 1;
+    box-shadow: 10px 10px 6px black;
+    animation-name: form;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-direction:reverse;
+}
+
+@keyframes form {
+    100%{ transform:rotatey(180deg);
+}
+}
+.head{
+    color: red;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+.input{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    bottom: 20px;
+}
+.input input{
+    width: 200px;
+    height: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 8px 2px black;
+}
+.input button{
+    background-color:orangered;
+    color: white;
+    font-variant: small-caps;
+    padding: 7px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 600;
+}
+
+input:focus{
+   background-color:rgb(231, 127, 111);
+}
+.icons{
+    position: relative;
+    bottom: 1230px;
+    left: 920px;
+    font-size: xx-large;
+    color: white;
+
+}
+
+#A{
+    color: green;
+
+}
+#B{
+    color: palevioletred;
+    position: relative;
+    left: 42px;
+    bottom: 38px;
+}
+#C{
+    color: skyblue;
+    position: relative;
+    left: 82px;
+    bottom: 76px;
+}
+#D{
+    color: red;
+    position: relative;
+    left:122px;
+    bottom: 114px;
+}
+#A:hover{
+
+    transform: translateY(-10px);
+   
+}
+#B:hover{
+    
+    transform: translateY(-10px);
+}
+#C:hover{
+    
+    transform: translateY(-10px);
+}
+#D:hover{
+    
+    transform: translateY(-10px);
+}
+#W{
+    font-size: xx-small;
+    position: relative;
+    top: 3px;
+    right: 35px;
+    opacity: 0;
+}
+#I{
+    font-size: xx-small;
+    position: relative;
+    top: 3px;
+    right: 35px;
+    opacity: 0;
+}
+#T{
+    font-size: xx-small;
+    position: relative;
+    top: 3px;
+    right: 35px;
+    opacity: 0;
+}
+#Y{
+    font-size: xx-small;
+    position: relative;
+    top: 3px;
+    right: 35px;
+    opacity: 0;
+}
+.whatsapp:hover #W{
+    opacity: 1;
+    position: relative;
+    top: 8px;
+    color: white;
+}
+.insta:hover #I{
+    opacity: 1;
+    position: relative;
+    top: 8px;
+    color: white;
+}
+.twitter:hover #T{
+    opacity: 1;
+    position: relative;
+    top: 8px;
+    color: white;
+}
+.youtube:hover #Y{
+    opacity: 1;
+    position: relative;
+    top: 8px;
+    color: white;
+}
+.heading{
+    position: relative;
+    bottom: 1800px;
+    color: orange;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    left: 90px;
+}
+.para{
+    position: relative;
+    bottom: 1800px;
+    color: white;
+    width: 600px;
+    text-align: justify;
+}
+.para1{
+    position: relative;
+    bottom: 1800px;
+    color: white;
+    width: 600px;
+    text-align: justify;
+}
+.footer li{
+    position: relative;
+    bottom: 1570px;
+    right: 40px;
+    color: white;
+    float:left;
+    list-style: none;
+    padding-left: 40px;
+}
+.footer li:hover{
+    color:orangered;
+    text-decoration: underline;
+}
+.trademark{
+    position: relative;
+    bottom: 1560px;
+    left: 140px;
+    color: white;
+    font-size: xx-small;
+}
+.photo img{
+    position: relative;
+    bottom: 1820px;
+    width: 220px;
+    height: 220px;
+    right: 599px;
+    border-radius: 120px;
+    object-fit:fill;
+    z-index: 1;
+}
+.circle2{
+    width: 230px;
+    height: 230px;
+    background-color:white;
+    position: relative;
+    bottom:2050px ;
+    border-radius: 120px;
+    left: 239px;
+    opacity: 0.3;
+    visibility: hidden;
+}
+.content{
+    position: relative;
+    top: 5px;
+    animation-name: content;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+.content:hover .circle2{
+        visibility:visible;
+}

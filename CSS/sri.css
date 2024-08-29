@@ -1,0 +1,107 @@
+#a{
+background-color: black;
+color : aliceblue;
+width: 260px;
+box-shadow: 2px 2px 3px 1px white;
+font-variant: small-caps;
+font-weight: 700;
+letter-spacing: 2px;
+font-size: larger;
+border-radius: 5px;
+}
+#A{
+background-color: aqua;
+color: black;
+width: 160px;
+text-shadow: 2px 1px 100px;
+box-shadow: 2px 3px 4px 3px;
+font-variant: small-caps;
+font-weight: 700;
+letter-spacing: 2px;
+font-size: larger;
+}
+#D{
+
+/* background-color: cadetblue;
+width: 200px; */
+color:orange;
+font-variant: small-caps;
+letter-spacing: 5px;
+font-weight: 700;
+}
+#F{
+    /* background-color: cadetblue;
+    width: 230px; */
+    color: orange;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+#R{
+background-color:maroon ;
+color: white;
+width: 500px;
+}
+.Y{
+background-color: greenyellow;
+color: black;
+font-variant: small-caps;
+}
+#e{
+color:black;
+}
+#r{
+color:brown;
+cursor: pointer;
+
+}
+.k{
+background-color:black;
+border: 5px solid gr;    
+}
+#g{
+    list-style-type:square;
+}
+#h{
+    list-style: square;
+}
+a{
+    color: goldenrod;
+}
+h6{
+    color: goldenrod;
+}
+h5{
+    color: goldenrod;
+}
+.m{
+    background-color:grey;
+    color: black;
+}
+#Z{
+    background-color:black;
+    height: 100px;
+    text-align: 200px;
+   line-height: 100px;
+   color:white;
+   letter-spacing: 10px;
+   /* border: 5px solid gold;
+   border-radius: 20px; */
+   outline: 100px;   
+   outline-width: 50px;
+   display: block;
+   padding: 3px;
+}
+#i{
+color:blue
+}
+#p{
+    text-align: center;
+}
+#O{
+    border:2px solid;
+    display: inline-block;
+    border-color:black;
+    background-color:ghostwhite;
+    border-radius: 5px;
+}

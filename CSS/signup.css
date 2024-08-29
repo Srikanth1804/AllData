@@ -1,0 +1,128 @@
+@media screen and(max-width :576px){
+    .regform{
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        width: 150px;
+        padding: 10px;
+        border-radius: 8px;
+        position: relative;
+        left: 410px;
+        top: 100px;
+        
+    }
+  
+}
+body{
+    background-image: url(pexels-josh-sorenson-1154504.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.regform{
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    width: 350px;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+    left: 450px;
+    top: 70px;
+    backdrop-filter: blur(5px) ;
+}
+.regform h1{
+    text-align: center;
+    position: relative;
+    top: 1px;
+    bottom: 35px;
+    color: red;
+    font-variant: small-caps;
+    font-weight:600;
+}
+.input label{
+    display:block;
+    font-variant: small-caps;
+    position: relative;
+    left: 3px;
+}
+.input input{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    position: relative;
+    background: transparent;
+}
+.input{
+    padding: 10px 30px;
+
+}
+.radio{
+    padding: 10px 25px;
+    accent-color:rgba(0,0,0,0.2);
+    position: relative;
+    left: 3px;
+}
+.radio label{
+    font-variant: small-caps;
+}
+.btn{
+    text-align: center;
+    padding: 50px 0px 4px;
+}
+button{
+    background: transparent ;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+    font-variant: small-caps;
+    font-weight: 400;
+}
+.input text{
+    padding: 20px;
+    margin: 20px;
+}
+ input:focus{
+   background-color: rgba(0, 0, 0, 0.2);
+}
+i{
+    font-size: large;
+    position: absolute;
+    right: 100px;
+}
+.text{
+    position: relative;
+}
+.text i{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+.email{
+    position: relative;
+}
+.email i{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+.password{
+
+    position: relative;
+}
+.password i{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
+.text input{
+    padding: 0px 10px;
+}
+.email input{
+    padding: 0px 10px;
+}
+.password input{
+    padding: 0px 10px;
+}

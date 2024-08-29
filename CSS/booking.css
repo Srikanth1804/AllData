@@ -1,0 +1,40 @@
+.A{
+    /* letter-spacing: 1px; */
+    /* font-style: inherit; */
+    font-variant: small-caps;
+}
+#A{
+    font-variant:small-caps;
+    /* font-style: italic;
+    font-weight:bolder */
+}
+a{
+    cursor: pointer;
+}
+#a{
+    font-size: small;
+    font-weight: 900;
+    font-variant: small-caps;
+    line-height: 100px;
+}
+#z{
+    background-color:orange;
+    color: black;
+    height: 100px;
+}
+#r{
+    /* background-color: aqua; */
+    color: white;
+    border: 2px solid white;
+    display: inline-block;
+    border-radius: 7px;
+    margin-top: 20px;
+    background-color: gray;
+}
+td{
+    font-variant: small-caps;
+    
+}
+#l{
+    margin-top: 20px;
+}
